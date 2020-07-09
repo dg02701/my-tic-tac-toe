@@ -1,0 +1,104 @@
+body {
+    min-height: 100vh;
+    margin: 0 auto;
+    font: 12pt Comic Sans MS;
+    align-content: center;
+    /* display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 1fr 1fr 1fr; */
+    /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+    
+  }
+div {
+  display: flex;
+  flex-wrap: wrap;
+  height: 450px;
+  width: 450px;
+  border: 1px solid black;
+  align-items: center;
+
+}
+  header {
+    width: 100vh;
+    height: 60px;
+    background: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  #reset {
+    background-color: yellow;
+    font-size: medium;
+    color: black;
+    width: 100px;
+    height: 30px;
+    align-self: center;
+  }
+  footer {
+    width: 100vh;
+    height: 60px;
+    background: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-end; */
+    align-items: center;
+  }
+  #message-footer {
+    font-size: x-large;
+  }
+  /* }
+  /* main {
+    width: 100vh;
+    /* background: blue; */
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* grid-row: 2 / span 3;
+    grid-column: 2; */
+  /* }  */
+  .squares {
+    background-color: whitesmoke;
+    font-size: medium;
+    width: 150px;
+    height: 150px;
+  }
+  /* section {
+    /* background: #990012; */
+    /* color: red */
+    /* border-radius: 10px; */
+    /* margin: 5px;
+    text-align: center; */
+  /* } */ 
+  /* #left  {
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood; */
+
+    /* grid-row: 2 / span 1;
+    grid-column: 1; */
+  /* }
+  #right {
+    display: flex;
+    flex-direction: column;
+    background-color: chartreuse;
+    /* grid-row: 2 / span 1;
+    grid-column: 3; */
+  /* }
+  #middle {    
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet; */ 
+    /* grid-row: 2;
+    grid-column: 2; */
+  /* }
+  #mainBottom {
+    grid-row: 3;
+    grid-column: 2;
+  } */
+  
